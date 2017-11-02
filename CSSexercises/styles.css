@@ -1,3 +1,28 @@
 p {
   color: red;
 }
+
+#id1{
+  color:pink;
+  font-family: impact;
+}
+
+#id2{
+  text-align: center;
+  color:green;
+}
+
+.bluev{
+  color: blue;
+  font-family: verdana;
+}
+
+.center{
+  text-align: center;
+  color: red;
+}
+
+.redv p{
+  color: purple;
+  font-family: Times New Roman;
+}
