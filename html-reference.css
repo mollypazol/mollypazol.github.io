@@ -1,1 +1,55 @@
+/*title*/
+.mytitlestyle {
+  text-align: center;
+  font: bold 50px "Times New Roman", serif;
+  background-color: red;
+  color: white;
+}
 
+/*table*/
+.mytablestyle th, td{
+  border: 2px solid black;
+  text-align: center;
+  font-family:arial ;
+}
+
+/*examples*/
+.myexamplestyle {
+  background-color: yellow;
+  padding: 12px;
+  box-shadow: 8px 8px 4px darkgray;
+}
+
+/*heading element*/
+.myh1style {
+  font: bold 50px "Times New Roman", serif;
+  color: white;
+}
+
+/*heading element*/
+.myh2style {
+  font: bold 35px "Times New Roman", serif; 
+  border: dashed blue;
+  color: black;
+  text-align: center; 
+}
+
+/*heading element*/
+.myh3style {
+  font: bold 25px "Times New Roman", serif; 
+  color: red
+}
+  
+/*headings*/
+h2 {
+  font: bold 35px "Times New Roman", serif; 
+  border: dashed blue;
+  color: black;
+  text-align:center;
+}
+
+/*small headings*/
+h3 {
+  font: bold 25px "Times New Roman", serif; 
+  color: red
+}
