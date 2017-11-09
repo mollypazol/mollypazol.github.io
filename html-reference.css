@@ -53,3 +53,7 @@ h3 {
   font: bold 25px "Times New Roman", serif; 
   color: red
 }
+
+table {
+  text-align: center;
+}
