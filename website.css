@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+/* topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: darkorange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* topnav hover */
+.topnav a:hover:not(.active) {
+    background-color: black;
+    color: darkorange;
+}
+
+/* topnav active page */
+.active {
+    background-color: darkorange;
+    color:white ;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center
+}
+/*body*/
+.content {
+  font-family:"Ariel", sans-serif;
+  color:black;
+  background-color:darkorange;
+}
+
+/*header*/
+.header {
+  background-color: black;
+  color: white;
+}
+
+/*images*/
+img {
+  width: 150px;
+  height: 100px;
+  float: none;
+  overflow: auto;
+}
+
+/*lists*/
+ol {
+  border: dotted 9px;
+  width: auto;
+}
+
+/*table*/
+.mytablestyle th, td {
+  border: 2px solid black;
+  text-align: center;
+  font-family:arial ;
+  border-collapse: collapse;
+}
+
+/*images*/
+.container {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin-top: 50px;
+}
